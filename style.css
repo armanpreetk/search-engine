@@ -11,12 +11,12 @@ body {
     align-items: center;
 }
 
-/* Center the search container */
+/* Center the search container with increased size */
 .search-container {
     background-color: white;
-    padding: 30px;
+    padding: 40px; /* Increased padding for more spacing */
     border-radius: 10px;
-    width: 350px;
+    width: 500px; /* Increased width */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -24,7 +24,7 @@ body {
 /* Title and heading styles */
 h1 {
     color: #2c3e50;
-    font-size: 2em;
+    font-size: 2.5em; /* Slightly increased font size */
     margin-bottom: 20px;
 }
 
@@ -34,10 +34,10 @@ h2 {
     margin-top: 30px;
 }
 
-/* Search input styles */
+/* Search input styles with increased width */
 input[type="text"] {
     padding: 12px;
-    width: 85%;
+    width: 95%; /* Increased width for a larger input box */
     border: 2px solid #bdc3c7;
     border-radius: 4px;
     margin-bottom: 15px;
